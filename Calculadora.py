@@ -7,5 +7,5 @@ class Calculadora(object):
         if (operacao == None):
             return 0
         else:
-            resultado = operacao.executar_operacao(valor1, valor2)
+            resultado = operacao.operacao(valor1, valor2)
             return resultado

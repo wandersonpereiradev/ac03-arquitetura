@@ -1,7 +1,7 @@
 #!/usr/bin/env python
+import abc
+from Calculadora import *
 
-class Main():
-    pass
-
-a = 20
+conta = Calculadora()
+a = conta.calcular(2, 3, 'subtracao')
 print(a)
